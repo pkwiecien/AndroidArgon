@@ -41,6 +41,7 @@ public class AboutScreen extends Activity implements OnClickListener
         mAboutText.setLinkTextColor(getResources().getColor(
                 R.color.holo_light_blue));
 
+
         mStartButton = (Button) findViewById(R.id.button_start);
         mStartButton.setOnClickListener(this);
     }

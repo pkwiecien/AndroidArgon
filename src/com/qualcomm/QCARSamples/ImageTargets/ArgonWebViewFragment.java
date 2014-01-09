@@ -26,11 +26,13 @@ public class ArgonWebViewFragment extends Fragment {
 		View v = inflater.inflate(R.layout.fragment_argonwebview, container,
 				false);
 
-		// String currentUrl = "http://threejs.org/examples/css3d_periodictable.html";
+		//String currentUrl = "http://threejs.org/examples/css3d_periodictable.html";
 		// String currentUrl = "http://davidwalsh.name/demo/css-cube.php";
-		String currentUrl = "http://54.200.170.80:9000/";
-		
+//		String currentUrl = "http://54.200.170.80:9000/";
+		// String currentUrl = "http://threejs.org/examples/#webgl_geometry_colors";
 		// set up web view
+		// String currentUrl = "http://threejs.org/examples/css3d_sprites.html";
+		String currentUrl = "http://www.prism.gatech.edu/~bdavidson8/three.js/examples/#css3d_periodictable";
 		WebView mWebView = (WebView) v.findViewById(R.id.webPage);
 		mWebView.getSettings().setJavaScriptEnabled(true);
 		mWebView.setWebViewClient(new WebViewClient());
