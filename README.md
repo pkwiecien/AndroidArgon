@@ -3,7 +3,7 @@ AndroidArgon
 
 #### What is AndroidArgon and what's new?
 
-This is a proof of concept of Argon for Android. Thanks to an updated WebView in Android 4.4 SDK [1] it is now possible to have an app with a camera in the background view and with WebView in the foreground that contains complex CSS3D objects. 
+This is a proof of concept of Argon for Android. Thanks to an updated WebView in Android 4.4 SDK [1] it is now possible to have an app with a camera in the background view and with WebView in the foreground that contains complex CSS3D objects. Webview supports transparency as seen on screenshots below. 
 
 As an example I developed an app that is integrated with a ImageTargets provided with vuforia [2]. After launching the app:
 
