@@ -11,6 +11,18 @@ As an example I developed an app that is integrated with a ImageTargets provided
 2. To see a second example, click on a button "Go to CSS3D Periodic Table". In the background you can still see a camera and teapot, in the foreground there's a periodic table in CSS 3D [3]. See screenshot 2.
 Once again there are no performance issues and website is very responsive. 
 
+
+#### Preview
+
+**Screenshot 1** - camera in the background with teapot, and webview with a sample webpage with transparent background in the foregorund:
+![Alt text](https://raw2.github.com/pkwiecien/AndroidArgon/master/screenshots/device-2014-01-09-113733.png "Screenshot 1 - camera in the background with teapot, and webview with a sample webpage with transparent background in the foregorund")
+
+**Screenshot 2** - camera in the background with teapot, and webview with a sample webpage in the foreground:
+![Alt text](https://raw.github.com/pkwiecien/AndroidArgon/master/screenshots/device-2013-12-09-122533.jpg "Screenshot 2 - camera in the background with teapot, and webview with a sample webpage in the foreground")
+
+**Screenshot 3** - camera in the background with teapot, and webview with Periodic Table in the foreground:
+![Alt text](https://raw.github.com/pkwiecien/AndroidArgon/master/screenshots/device-2013-12-09-122623.jpg "Screenshot 3 - camera in the background with teapot, and webview with Periodic Table in the foreground")
+
 #### How to run the app?
 * Pull repository
 * Open ADT (or eclipse with ADT), install Android 4.4 SDK and vuforia if needed (see requirements below)
@@ -18,11 +30,7 @@ Once again there are no performance issues and website is very responsive.
 * Add QCAR_SDK_ROOT into Java Build Path, see: Section "Set the QCAR environment variable" 
 in https://developer.vuforia.com/resources/dev-guide/step-2-installing-vuforia-sdk
 * Run project as Android application
-
-#### Preview
-![Alt text](https://raw.github.com/pkwiecien/AndroidArgon/master/screenshots/device-2013-12-09-122533.jpg "Screenshot 1 - camera in the background with teapot, and webview with a sampel webpage in the foregorund")
-![Alt text](https://raw.github.com/pkwiecien/AndroidArgon/master/screenshots/device-2013-12-09-122623.jpg "Screenshot 2 - camera in the background with teapot, and webview with Periodic Table in the foregorund")
-
+* 
 #### Requirements:
 * Android 4.4 SDK (API 19) installed
 * vuforia installed, follow: https://developer.vuforia.com/resources/sdk/android
